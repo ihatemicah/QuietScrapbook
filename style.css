@@ -1,0 +1,42 @@
+body,html {
+    background-color: black;
+    color: white;
+}
+
+.header-wrap {
+    margin-bottom:40px;
+}
+.header-text {
+    text-align: center;
+    font-size: 252px;
+}
+.header-description-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: -70px;
+}
+
+.image-description {
+    font-size: 12px;
+}
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+  .header-text {
+    font-size: 86px;
+  }
+  .header-description-text {
+    margin:-20px auto 0px auto ;
+    font-size: 12px;
+    width:313px;
+  }
+
+}
